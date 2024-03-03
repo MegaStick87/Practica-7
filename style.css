@@ -1,0 +1,52 @@
+body {
+    background: #e0e0e0; /* Establece un color de fondo gris claro. */
+    justify-content: center; /* Alinea el contenido horizontalmente al centro. */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Establece la familia de fuentes. */
+    overflow: hidden; /* Oculta cualquier contenido que sobrepase los límites del cuerpo de la página. */
+}
+
+#video-background {
+    position: fixed; /* Posiciona el video de manera fija en la página. */
+    right: 0; /* Alinea el video a la derecha. */
+    bottom: 0; /* Alinea el video en la parte inferior. */
+    min-width: 100%; /* Ancho mínimo del video: 100% del ancho de la ventana. */
+    min-height: 100%; /* Altura mínima del video: 100% de la altura de la ventana. */
+    width: auto; /* Ancho automático. */
+    height: auto; /* Altura automática. */
+    z-index: -100; /* Coloca el video detrás de todo el contenido. */
+    background-size: cover; /* Asegura que el video cubra toda el área disponible. */
+    overflow: hidden; /* Oculta cualquier parte del video que sobrepase el área designada. */
+}
+
+.spidey img {
+    border-radius: 10%; /* Bordes redondeados para la imagen. */
+    height: 10%; /* Altura de la imagen: 10% del contenedor. */
+    width: 15%; /* Ancho de la imagen: 15% del contenedor. */
+    margin-bottom: 500%; /* Gran margen inferior. */
+    margin-left: 800px; /* Margen izquierdo de 800px. */
+    margin-right: auto; /* Margen derecho automático. */
+    margin-top: 20px; /* Margen superior de 20px. */
+}
+
+.lyrics {
+    text-align: center; /* Alinea el texto al centro. */
+    margin: auto; /* Margen automático para centrar el bloque. */
+    position: absolute; /* Posicionamiento absoluto respecto a su contenedor más cercano con posición no estática. */
+    top: 75%; /* Posición desde la parte superior: 75%. */
+    left: 50%; /* Posición desde la izquierda: 50%. */
+    transform: translate(-50%, -50%); /* Centra el elemento exactamente en el medio. */
+    background: rgba(255, 255, 255, 0.1); /* Fondo con color blanco y baja opacidad. */
+    border-radius: 15px; /* Bordes redondeados. */
+    padding: 20px; /* Espaciado interno. */
+    max-width: 300px; /* Ancho máximo del contenedor. */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque en el fondo. */
+    box-shadow: 0 0 10px 0 rgba(0, 255, 255, 0.5), 0 0 40px 0 rgba(0, 255, 255, 0.45), 0 0 80px 0 rgba(0, 255, 255, 0.4); /* Sombra con efecto de brillo. */
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Borde delgado con color blanco y baja opacidad. */
+}
+
+.lyrics pre {
+    color: rgb(255, 255, 255); /* Color del texto: blanco. */
+    margin: 0; /* Sin márgenes. */
+    font-family: 'Times New Roman', Times, serif; /* Establece la familia de fuentes. */
+    text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /* Sombra de texto para mejorar la legibilidad. */
+}

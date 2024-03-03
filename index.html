@@ -1,0 +1,62 @@
+<!-- Practica 7 -->
+
+<!DOCTYPE html>
+<!-- Esta línea declara que el documento es HTML5, la versión estándar actual de HTML. -->
+
+<html>
+<!-- La etiqueta <html> engloba todo el contenido de la página. -->
+
+<head>
+<!-- La sección <head> contiene información meta sobre el documento, como su título y enlaces a hojas de estilo. -->
+
+    <title>Spidey</title>
+    <!-- La etiqueta <title> define el título de la página, que aparece en la pestaña del navegador. -->
+
+    <meta charset="UTF-8">
+    <!-- Esta etiqueta <meta> establece la codificación de caracteres para el documento, en este caso UTF-8, que incluye la mayoría de los caracteres de todos los idiomas. -->
+
+    <link rel="stylesheet" href="/style.css"/>
+    <!-- La etiqueta <link> se utiliza para enlazar una hoja de estilos CSS externa, que definirá cómo se ven los elementos de la página. -->
+
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <!-- La etiqueta <link> también se usa aquí para definir un favicon (icono de la pestaña del navegador) para la página. -->
+</head>
+<!-- Aquí cierra la etiqueta </head>. Todo lo que está entre <head> y </head> no se muestra directamente en la página web, pero proporciona información al navegador. -->
+
+<body>
+    <!-- La etiqueta <body> contiene todo el contenido visible de la página web. -->
+
+    <iframe id="video-background" src="https://www.youtube.com/embed/eH6rNQGkppY?autoplay=1&mute=1&controls=0&showinfo=0&loop=1&playlist=eH6rNQGkppY&rel=0&modestbranding=1&iv_load_policy=3&cc_load_policy=0&fs=0&disablekb=1&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!-- Un <iframe> que incrusta un video de YouTube. Contiene varios parámetros para controlar la reproducción y la presentación del video. -->
+
+    <div class="spidey">
+        <!-- Un <div> con la clase 'spidey'. Se utiliza para aplicar estilos específicos. -->
+        
+        <img src="/img/spidey.jpg" alt="Imagen no encontrada" />
+        <!-- La etiqueta <img> inserta una imagen en la página. 'src' es la ruta de la imagen y 'alt' proporciona texto alternativo. -->
+
+        <div class="lyrics">
+            <!-- Un <div> interno con la clase 'lyrics' para estilizar específicamente este contenido. -->
+            <pre>
+Spider-Man, Spider-Man
+Does whatever a spider can
+Spins a web, any size
+Catches thieves just like flies
+Look out
+Here comes the Spider-Man
+Is he strong?
+Listen bud
+He's got radioactive blood
+Can he swing from a thread?
+Take a look overhead
+Hey, there
+There goes the Spider-Man
+            </pre>
+            <!-- La etiqueta <pre> se utiliza para texto preformateado, manteniendo los espacios y saltos de línea como están en el código fuente. -->
+        </div>
+    </div>
+</body>
+<!-- Esta etiqueta cierra el <body>, que es donde termina el contenido visible de tu página. -->
+
+</html>
+<!-- Esta etiqueta cierra el documento HTML. -->
